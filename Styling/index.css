@@ -1,0 +1,104 @@
+#container
+{
+    margin:auto;
+    height: 40vw;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(48, 114, 172);
+    border-radius: 3vw;
+}
+
+h2
+{
+    font-size: 2vw;
+}
+
+#TicTacToe
+{
+    width: 30vw;
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.box
+{
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.boxtext
+{
+    font-size: 5vw;
+}
+
+#head
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#Players
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000b0;
+    color: white;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+
+#reset
+{
+    border-bottom-left-radius: .5vw;
+    border-bottom-right-radius: .5vw;
+    width: 10vw;
+    align-self: center;
+}
+
+#Player1
+{
+    text-decoration: underline;
+}
+
+#congrats
+{
+    font-size: large;
+    text-decoration: underline;
+    font-family: sans-serif;
+    background-color: azure;
+}
+
+#info
+{
+    flex-direction: column;
+    align-items: center;
+}
+
+.left
+{
+    border-left: 1.5px solid black;
+}
+.right
+{
+    border-right: 1.5px solid black;
+}
+.up
+{
+    border-top: 1.5px solid black;
+}
+.bottom
+{
+    border-bottom: 1.5px solid black;
+}
+

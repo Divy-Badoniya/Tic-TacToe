@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./Styling/index.css">
 </head>
 <body>
-    
+    <div id="container">
+        <div id="Title">
+            <h1>My Tic Tac Toe</h1>
+        </div>
+        <div id="TicTacToe">
+            <div id="head">
+                <div id="Players">
+                    <h2 id="Player1" class="player">Player1: X</h2>
+                    <h2 id="Player2"class="player">Player2: O</h2>
+                </div>
+                <button id="reset">reset</button>
+            </div>
+            <div id="board">
+                <div class="box right bottom" id="box1"><span class="boxtext"></span></div>
+                <div class="box left right bottom" id="box2 "><span class="boxtext"></span></div>
+                <div class="box left bottom" id="box3"><span class="boxtext"></span></div>
+                <div class="box right up bottom" id="box4"><span class="boxtext"></span></div>
+                <div class="box right up bottom left" id="box5"><span class="boxtext"></span></div>
+                <div class="box left up bottom" id="box6"><span class="boxtext"></span></div>
+                <div class="box up right" id="box7"><span class="boxtext"></span></div>
+                <div class="box left ight up" id="box8"><span class="boxtext"></span></div>
+                <div class="box left up" id="box9"><span class="boxtext"></span></div>
+            </div>
+            <div id="info">
+                <p id="congrats"></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
